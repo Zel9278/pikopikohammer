@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  user-select: none;
+  overflow: hidden;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#text {
+  margin-right: 20px;
+}
+
+#hammer {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  transform-origin: center bottom;
+  transition: transform 0.1s ease-in-out;
+  /* アニメーションを滑らかにする */
+}
+
+#handle {
+  fill: #444;
+}
+
+#head {
+  fill: #ffcc00;
+}
